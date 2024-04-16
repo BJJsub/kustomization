@@ -18,7 +18,7 @@ spec:
         app: demo-nginx
     spec:
       containers:
-      - image: garbrielknot/ipnginx
+      - image: ipnginx
         name: ipnginx
         resources: {}
 status: {}
