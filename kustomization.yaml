@@ -1,0 +1,7 @@
+namePrefix: prod-
+resources: 
+  - deployment.yaml
+  - service.yaml
+
+
+
