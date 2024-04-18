@@ -96,6 +96,7 @@ pipeline {
         sh "git branch -M main"
         
       }
+}
 
      stage('Push to Git Repository') {
       steps {
@@ -105,5 +106,6 @@ pipeline {
       }
     }
   }
+
 
 
